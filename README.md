@@ -39,3 +39,41 @@ The objective is to analyze phishing email and SMS samples, identify phishing in
 - VirusTotal findings documented by the sample repository
 - Microsoft Word
 - Browser tools
+  ## 🔎 Analysis Approach
+
+The phishing samples were analyzed using a structured security-analysis process:
+
+1. Reviewed the sender information and message content.
+2. Examined suspicious links, attachments, and branding.
+3. Identified social-engineering techniques and phishing indicators.
+4. Compared suspicious details with expected legitimate communication patterns.
+5. Classified each case as Safe, Suspicious, or Phishing based on the observed indicators.
+6. Documented the findings and recommended prevention measures.
+
+## 📂 Evidence
+
+Supporting screenshots for each analyzed case are available in:
+
+- `Case_001/` – Microsoft password-expiration phishing
+- `Case_002/` – Apple App Store invoice phishing
+- `Case_003/` – Coinbase SMS phishing
+
+## 📄 Final Report
+
+The complete **Phishing Detection & Awareness Report** is available as:
+
+`Phishing_Detection_Awareness_Report.pdf`
+
+## 🛡️ Key Awareness Takeaways
+
+- Verify the sender before trusting an email or message.
+- Do not click suspicious links.
+- Do not open unexpected attachments.
+- Be cautious of urgent or fear-based messages.
+- Check domains and URLs carefully.
+- Never provide passwords, OTPs, or sensitive information through suspicious requests.
+- Report suspected phishing messages to the appropriate security team.
+
+## ⚠️ Disclaimer
+
+The samples used in this project are publicly available phishing examples collected for educational and security-awareness purposes. They were analyzed only for learning and defensive awareness.
